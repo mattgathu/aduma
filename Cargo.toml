@@ -1,0 +1,14 @@
+[package]
+authors = ["Matt Gathu <mattgathu@gmail.com>"]
+edition = "2018"
+name = "aduma"
+version = "0.1.0"
+
+[dependencies]
+surf = "2.0.0-alpha.0"
+clap = "2.33.0"
+failure = "0.1.7"
+url = "2.1.1"
+async-std = {version = "1.5.0", features=["unstable"]}
+indicatif = "0.14.0"
+futures = "0.3.4"
